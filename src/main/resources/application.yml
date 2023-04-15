@@ -1,1 +1,9 @@
-
+spring:
+  data:
+    mongodb:
+      username: cat
+      password: dog
+      host: localhost
+      port: 27017
+      database: new-db
+      authentication-database: admin
