@@ -20,6 +20,7 @@ public class SpringmongoApplication {
             UserRepository repository
 
     ) {
+        // inserting data
         return args -> {
             var user = User.builder()
                     .name("Arun")
