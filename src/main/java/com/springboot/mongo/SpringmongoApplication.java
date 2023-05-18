@@ -12,6 +12,7 @@ public class SpringmongoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringmongoApplication.class, args);
+		return "hello world";
 	}
 
 
