@@ -43,5 +43,5 @@
         with:
           host: ${{ secrets.SONARQUBE_HOST }}
           login: ${{ secrets.SONARQUBE_TOKEN }}
-            projectBaseDir: "src/"
-            projectKey: "my-custom-project"
+          projectBaseDir: "src/"
+          projectKey: "my-custom-project"
